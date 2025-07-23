@@ -62,6 +62,12 @@ main{
     margin-top: 24px;
   }
 
+  .karo{
+    display: block !important;
+    font-size: 16px;
+    justify-content: center;
+  }
+
   .finalcar {
     width: 100%;
     height: auto;
@@ -114,7 +120,6 @@ p{
 font-weight: 700;
 line-height: normal;
 
-
 }
 
 .kittyfaz {
@@ -125,6 +130,7 @@ line-height: normal;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 55px;
 }
 
 .kittyfaz iframe {
@@ -206,4 +212,17 @@ a {
 
 .ende{
   margin-top: 32px;
+}
+
+.karo{
+  display: flex;
+  margin-top: 100px;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  font-size: 16px;
+  display: block;
 }
